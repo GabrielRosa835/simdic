@@ -1,10 +1,11 @@
 /*  ============================================================================
-    MÉTODOS NUMÉRICOS - ISOLAMENTO DE RAÍZES (MÉTODO DA DICOTOMIA / BISSECÇÃO)
+    MÉTODOS NUMÉRICOS - ISOLAMENTO DE RAÍZES VIA MÉTODO DA DICOTOMIA / BISSECÇÃO
     ============================================================================
     INTEGRANTES:
     - Gabriel Rosa da Silva, RA 237069
     - Rodrigo Avila Ferreira dos Santos Filho, RA 251327
     - Lucas Moraes Mosca, RA 250889
+    - Victor Henrique Soares Baleeiro, RA 252366
 
     DESCRIÇÃO DO PROGRAMA:
     Este programa implementa o Método da Dicotomia (ou Bissecção) para encontrar 
@@ -17,27 +18,32 @@
     atingir a precisão especificada pelo erro.
 
     EXEMPLOS DE POLINÔMIOS PARA TESTE:
-    polinômio: f(x) = x² - 4
+    - Exemplo 1:
+        polinômio: f(x) = x² - 4
         grau: 2 
         coeficientes: 1, 0, -4 
         intervalo: [0, 3] 
         raíz: 2
-    polinômio: f(x) = x³ - x - 2
+    - Exemplo 2:
+        polinômio: f(x) = x³ - x - 2
         grau: 3 
         coeficientes: 1, 0, -1, -2 
         intervalo: [1, 2] 
         raíz: ~1.521
-    polinômio: f(x) = x⁴ - 5x² + 4
+    - Exemplo 3:
+        polinômio: f(x) = x⁴ - 5x² + 4
         grau: 4 
         coeficientes: 1, 0, -5, 0, 4 
         intervalo: [0.5, 1.5] 
         raíz: 1
-    polinômio: f(x) = x⁵ - 3x³ + 1
+    - Exemplo 4:
+        polinômio: f(x) = x⁵ - 3x³ + 1
         grau: 5 
         coeficientes: 1, 0, -3, 0, 0, 1 
         intervalo: [0, 1] 
         raíz: ~0.755
-    polinômio: f(x) = x⁶ - x - 1
+    - Exemplo 5:
+        polinômio: f(x) = x⁶ - x - 1
         grau: 6 
         coeficientes: 1, 0, 0, 0, 0, -1, -1 
         intervalo: [1, 2] 
