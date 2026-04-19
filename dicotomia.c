@@ -18,31 +18,31 @@
     atingir a precisão especificada pelo erro.
 
     EXEMPLOS DE POLINÔMIOS PARA TESTE:
-    - Exemplo 1:
+    - Exemplo 1 (raiz exata e simples):
         polinômio: f(x) = x² - 4
         grau: 2 
         coeficientes: 1, 0, -4 
         intervalo: [0, 3] 
         raíz: 2
-    - Exemplo 2:
+    - Exemplo 2 (raiz irracional):
         polinômio: f(x) = x³ - x - 2
         grau: 3 
         coeficientes: 1, 0, -1, -2 
         intervalo: [1, 2] 
         raíz: ~1.521
-    - Exemplo 3:
+    - Exemplo 3 (múltiplas raízes):
         polinômio: f(x) = x⁴ - 5x² + 4
         grau: 4 
         coeficientes: 1, 0, -5, 0, 4 
         intervalo: [0.5, 1.5] 
         raíz: 1
-    - Exemplo 4:
+    - Exemplo 4 (variação de sinais):
         polinômio: f(x) = x⁵ - 3x³ + 1
         grau: 5 
         coeficientes: 1, 0, -3, 0, 0, 1 
         intervalo: [0, 1] 
         raíz: ~0.755
-    - Exemplo 5:
+    - Exemplo 5 (função de grau alto):
         polinômio: f(x) = x⁶ - x - 1
         grau: 6 
         coeficientes: 1, 0, 0, 0, 0, -1, -1 
