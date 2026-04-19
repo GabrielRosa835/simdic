@@ -7,6 +7,8 @@
     - Lucas Moraes Mosca, RA 250889
     - Victor Henrique Soares Baleeiro, RA 252366
 
+    REPOSITÓRIO: https://github.com/GabrielRosa835/simdic.git
+
     DESCRIÇÃO DO PROGRAMA:
     Este programa implementa o Método da Dicotomia (ou Bissecção) para encontrar 
     raízes reais de funções polinomiais de grau 2 a 6. O usuário fornece o grau, 
@@ -179,8 +181,8 @@ int main()
     // ETAPA 4: RESULTADO FINAL
     // ========================================================================
     printf("----*-----------*-----------*-----------*-----------*-----------*-----------*-----------*-----------+\n");
-    printf(" Raíz aproximada encontrada: r = %.5f                                                            |\n", raiz);
-    printf(" Valor da função neste ponto: f(r) = %.5f                                                        |\n", resultado_raiz);
+    printf(" Raíz aproximada encontrada: r = %9.5f                                                          |\n", raiz);
+    printf(" Valor da função neste ponto: f(r) = %9.5f                                                      |\n", resultado_raiz);
     printf(" Iterações realizadas: %2i                                                                           |\n", iteracoes);
     printf("----------------------------------------------------------------------------------------------------*\n\n");
 
